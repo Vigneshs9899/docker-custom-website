@@ -21,7 +21,7 @@ jobs:
 
 
       - name: Build Docker Image
-        run:  docker build -t vigneshs9899/vignesh-nginx:latest .
+        run:  docker build -t vignesh9899/vignesh-nginx:latest .
 
       - name: Push Docker Image
-        run:  docker push vigneshs9899/vignesh-nginx:latest
+        run:  docker push vignesh9899/vignesh-nginx:latest
