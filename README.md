@@ -39,6 +39,9 @@ http://localhost:8081
 ## CI/CD Pipeline
 This project includes a GitHub Actions workflow that automatically builds the Docker image whenever code is pushed to the repository.
 
+##CI/CD Pipeline Workflow:
+GitHub → GitHub Actions → Docker Hub → Azure
+
 ## Learning Outcome
 - Understanding Docker images
 - Building custom Docker images
